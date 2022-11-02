@@ -14,6 +14,6 @@ else
   elif [ $2 == '/' ]; then
     echo "$1 / $3 = `expr $1 \/ $3`"
   else
-    echo "second parameter is only '+ - x /'"
+    echo "second parameter require only '+ - x /'"
   fi
 fi
